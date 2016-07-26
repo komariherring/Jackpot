@@ -6,13 +6,13 @@
 //  Copyright © 2016 The Iron Yard. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WinningTicketViewController.h"
 
-@interface ViewController ()
+@interface WinningTicketViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WinningTicketViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
