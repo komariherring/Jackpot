@@ -8,8 +8,17 @@
 
 #import "WinningTicketViewController.h"
 
-@interface WinningTicketViewController ()
+@interface WinningTicketViewController () <UIPickerViewDataSource, UIPickerViewDelegate>
+{
+    NSNumber *firstNumber;
+    NSNumber *secondNumber;
+    NSNumber *thirdNumber;
+    NSNumber *fourthNumber;
+    NSNumber *fifthNumber;
+    NSNumber *sixthNumber;
+    
 
+}
 @end
 
 @implementation WinningTicketViewController
@@ -17,6 +26,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"You Win!";
+//    firstNumber = NSNumber
+//    secondNumber = NSNumber
+//    thirdNumber = NSNumber
+//    fourthNumber = NSNumber
+//    fifthNumber = NSNumber
+//    sixthNumber = NSNumber
+    
+    //arc4random_uniform(53)
 }
 
 - (void)didReceiveMemoryWarning {
