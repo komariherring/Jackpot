@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEC6813A1D90292200D42132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC681391D90292200D42132 /* Main.storyboard */; };
 		EED649F31D47BC60005FFF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649F21D47BC60005FFF98 /* main.m */; };
 		EED649F61D47BC60005FFF98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649F51D47BC60005FFF98 /* AppDelegate.m */; };
 		EED649F91D47BC60005FFF98 /* WinningTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED649F81D47BC60005FFF98 /* WinningTicketViewController.m */; };
-		EED649FC1D47BC60005FFF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED649FA1D47BC60005FFF98 /* Main.storyboard */; };
 		EED649FE1D47BC60005FFF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED649FD1D47BC60005FFF98 /* Assets.xcassets */; };
 		EED64A011D47BC60005FFF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED649FF1D47BC60005FFF98 /* LaunchScreen.storyboard */; };
 		EED64A0A1D4800DA005FFF98 /* TicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED64A091D4800DA005FFF98 /* TicketsTableViewController.m */; };
@@ -18,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEC681391D90292200D42132 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EED649EE1D47BC60005FFF98 /* Jackpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jackpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED649F21D47BC60005FFF98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED649F41D47BC60005FFF98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EED649F51D47BC60005FFF98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EED649F71D47BC60005FFF98 /* WinningTicketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinningTicketViewController.h; sourceTree = "<group>"; };
 		EED649F81D47BC60005FFF98 /* WinningTicketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinningTicketViewController.m; sourceTree = "<group>"; };
-		EED649FB1D47BC60005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED649FD1D47BC60005FFF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED64A001D47BC60005FFF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED64A021D47BC60005FFF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				EED64A0C1D4803AC005FFF98 /* Ticket.m */,
 				EED649F71D47BC60005FFF98 /* WinningTicketViewController.h */,
 				EED649F81D47BC60005FFF98 /* WinningTicketViewController.m */,
-				EED649FA1D47BC60005FFF98 /* Main.storyboard */,
+				EEC681391D90292200D42132 /* Main.storyboard */,
 				EED649FD1D47BC60005FFF98 /* Assets.xcassets */,
 				EED649FF1D47BC60005FFF98 /* LaunchScreen.storyboard */,
 				EED64A021D47BC60005FFF98 /* Info.plist */,
@@ -115,7 +115,7 @@
 		EED649E61D47BC60005FFF98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "The Iron Yard";
 				TargetAttributes = {
 					EED649ED1D47BC60005FFF98 = {
@@ -146,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC6813A1D90292200D42132 /* Main.storyboard in Resources */,
 				EED64A011D47BC60005FFF98 /* LaunchScreen.storyboard in Resources */,
 				EED649FE1D47BC60005FFF98 /* Assets.xcassets in Resources */,
-				EED649FC1D47BC60005FFF98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EED649FA1D47BC60005FFF98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EED649FB1D47BC60005FFF98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EED649FF1D47BC60005FFF98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,8 +195,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -247,8 +241,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -312,6 +308,7 @@
 				EED64A071D47BC60005FFF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

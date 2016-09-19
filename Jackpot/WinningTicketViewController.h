@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TicketsTableViewController.h"
+#import "Ticket.h"
 
 @interface WinningTicketViewController : UIViewController
+
+@property (strong, nonatomic) id<WinningTicketDelegate> delegate; // required for using the delegate
+
+@property (strong, nonatomic) NSMutableArray *winningNumbersArray2;
+
+@property (strong, nonatomic) Ticket *possibleWinningTicket;
 
 
 @end
