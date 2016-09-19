@@ -23,7 +23,6 @@
 
 -(NSString*)generateLotteryTicketNumbers;
 
-// ******* method declared her to make visible to other files********
 
 -(void)checkForWinningNumbers:(NSArray*)winningTicketArrayToCheck;
 

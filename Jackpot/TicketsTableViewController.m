@@ -53,7 +53,7 @@
     
     [self.lotteryTicketsGeneratedArray addObject:aTicket];
     
-    // ******Refreshes the tableView after every random ticket is made
+//refresh
     
     [self.tableView reloadData];
     
@@ -75,7 +75,6 @@
     return self.lotteryTicketsGeneratedArray.count;
 }
 
-// **********This configures the cells to be displayed in the tableView
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -83,11 +82,11 @@
     
     // Configure the cell...
     Ticket *aTicket = self.lotteryTicketsGeneratedArray[indexPath.row];
+    
     cell.textLabel.text = aTicket.ticketAs6Digits;
     cell.detailTextLabel.text = aTicket.prizeMoney;
     
-    // ***********This changes the background color on winning tickets
-    
+   //changes color of background
     if (aTicket.winner)
     {
         cell.backgroundColor = [UIColor greenColor];
@@ -101,9 +100,8 @@
 }
 
 
-#pragma mark - WinningTicketDelegate--  delegate method *****************************
+#pragma mark - WinningTicketDelegate
 
-// Gets the winning ticket from WinningTicketViewController and passes it the checkForWinningNumbers method to see how many digits match
 
 - (void)winningTicketWasChosen:(Ticket *)winTicket
 {

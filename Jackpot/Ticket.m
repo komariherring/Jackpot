@@ -12,6 +12,7 @@
 @implementation Ticket
 
 - (instancetype)init
+
 {
     self = [super init];
     if (self)
@@ -28,7 +29,7 @@
     return self;
 }
 
-#pragma mark - Method for generating a unique 6 digit number.  Fairly complicated to make 6 unique digits without repeating
+#pragma mark - Random number
 
 -(NSString*)generateLotteryTicketNumbers
 {
@@ -66,7 +67,6 @@
     
 }
 
-// ********This method is called in TicketNumbersTableViewController to see if a ticket has any matching digits with the winningTicketArray
 
 -(void)checkForWinningNumbers:(NSArray*)winningTicketArrayToCheck
 {
@@ -82,7 +82,6 @@
         }
     }
     
-    // ********* Checking to see how much prizeMoney will be payed out based on how many winning digits
     
     if (winCount == 6)
     {
@@ -105,7 +104,6 @@
         self.prizeMoney = @"";
     }
     
-    // Simple check to see if the ticket is a even a winner at all
     
     if (winCount >= 3)
     {

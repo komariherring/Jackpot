@@ -41,7 +41,7 @@
 - (IBAction)setTapped:(UIButton *)sender
 {
     
-    // ********** Sloppy way to populate the winningNumbersArray2 with the winning numbers from the picker
+
     NSInteger firstSelectedRow = [self.timePicker selectedRowInComponent:0];
     NSInteger firstSelectedNumber = firstSelectedRow + 1;
     NSNumber *firstSelectedNSNumber = [NSNumber numberWithInteger:firstSelectedNumber];
@@ -76,8 +76,7 @@
     Ticket *theWinningTicket = [[Ticket alloc] init];
     
     theWinningTicket.winningTicketArray = self.winningNumbersArray2;
-    
-    // ********** This calls the required winningTicketWasChosen method and takes the "theWinningTicket" argument and passes it along to TicketNumbersTableViewController
+
     
     [self.delegate winningTicketWasChosen:theWinningTicket];
     [self dismissViewControllerAnimated:YES completion:nil];
